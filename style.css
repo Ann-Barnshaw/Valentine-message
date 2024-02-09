@@ -5,19 +5,18 @@ body {
 .roses {
     width: 200px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .message {
     border: 1px transparent lightpink;
     width: 300px;
     margin: 0 auto;
     box-shadow: 10px 10px 5px pink;
-    /* margin-bottom: 20px; */
     border-radius: 20px;
 }
 .sign {
     border: 1px transparent lightpink;
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
     border-radius: 20px;
     box-shadow: -10px 20px 10px lightpink;
@@ -31,13 +30,12 @@ body {
     padding: 50px;
 }
 button {
-    margin-top: 0px;
+    margin-top: 50px;
     width: 200px;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid lightpink;
     border-radius: 20px;
-
 }
 p {
     margin-bottom: 0px;
@@ -46,4 +44,5 @@ p {
 a {
     text-decoration: none;
     color: gray;
+    font-size: 10px;
 }
