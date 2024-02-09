@@ -4,22 +4,46 @@ body {
 }
 .roses {
     width: 200px;
+    border-radius: 20px;
     margin-top: 20px;
 }
 .message {
-    border: 1px solid lightpink;
+    border: 1px transparent lightpink;
     width: 300px;
-    margin-top: 30px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px pink;
+    /* margin-bottom: 20px; */
+    border-radius: 20px;
 }
 .sign {
-    border: 1px solid lightpink;
+    border: 1px transparent lightpink;
     width: 300px;
-    margin-top: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: -10px 20px 10px lightpink;
 }
 .container {
     margin: 0 auto;
     text-align: center;
-    width: 500px;
+    width: 900px;
     margin-top: 40px;
-    
+    background-color: #f6f6f6;
+    padding: 50px;
+}
+button {
+    margin-top: 0px;
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid lightpink;
+    border-radius: 20px;
+
+}
+p {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+a {
+    text-decoration: none;
+    color: gray;
 }
